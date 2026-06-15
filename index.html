@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moinak Photography</title>
+    <meta
+      name="description"
+      content="A cinematic photography portfolio for portraits, streets, landscapes, and events."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Moinak Photography home">
+        <span class="brand-mark">M</span>
+        <span>Moinak Photography</span>
+      </a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#stories">Stories</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Photography portfolio introduction">
+        <img
+          src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85"
+          alt="A photographer looking over a misty landscape at sunrise"
+        />
+        <div class="hero-content">
+          <p class="eyebrow">Portraits / Streets / Travel / Events</p>
+          <h1>Photography with atmosphere, motion, and a human pulse.</h1>
+          <p>
+            A focused portfolio for showing selected work, telling the story
+            behind the frame, and making it easy for people to book a session.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Gallery</a>
+            <a class="button secondary" href="#contact">Book a Shoot</a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#work" aria-label="Scroll to gallery">↓</a>
+      </section>
+
+      <section class="intro" aria-label="Portfolio highlights">
+        <div>
+          <span class="stat">48</span>
+          <span class="label">selected frames</span>
+        </div>
+        <div>
+          <span class="stat">06</span>
+          <span class="label">visual stories</span>
+        </div>
+        <div>
+          <span class="stat">04</span>
+          <span class="label">shoot styles</span>
+        </div>
+        <p>
+          Replace the sample images with your own favorites and this becomes a
+          clean, ready-to-share portfolio.
+        </p>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Frames that hold the feeling.</h2>
+        </div>
+
+        <div class="filters" aria-label="Filter gallery">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="portrait">Portrait</button>
+          <button class="filter" type="button" data-filter="street">Street</button>
+          <button class="filter" type="button" data-filter="travel">Travel</button>
+          <button class="filter" type="button" data-filter="event">Event</button>
+        </div>
+
+        <div class="gallery">
+          <button class="photo-card tall" type="button" data-category="portrait">
+            <img
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=85"
+              alt="Portrait of a woman in soft window light"
+            />
+            <span><strong>Window Light</strong> Portrait</span>
+          </button>
+          <button class="photo-card" type="button" data-category="street">
+            <img
+              src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=85"
+              alt="Quiet street scene with warm architectural light"
+            />
+            <span><strong>Evening Block</strong> Street</span>
+          </button>
+          <button class="photo-card wide" type="button" data-category="travel">
+            <img
+              src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=85"
+              alt="Open road curving through a desert landscape"
+            />
+            <span><strong>Open Road</strong> Travel</span>
+          </button>
+          <button class="photo-card" type="button" data-category="event">
+            <img
+              src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=85"
+              alt="Dinner party table with glasses and candles"
+            />
+            <span><strong>Table Glow</strong> Event</span>
+          </button>
+          <button class="photo-card tall" type="button" data-category="street">
+            <img
+              src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=900&q=85"
+              alt="Dense city skyline at night"
+            />
+            <span><strong>City After Dark</strong> Street</span>
+          </button>
+          <button class="photo-card" type="button" data-category="portrait">
+            <img
+              src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=900&q=85"
+              alt="Studio portrait with warm color and direct gaze"
+            />
+            <span><strong>Still Gaze</strong> Portrait</span>
+          </button>
+          <button class="photo-card" type="button" data-category="travel">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=85"
+              alt="Ocean shoreline seen from above"
+            />
+            <span><strong>Tide Line</strong> Travel</span>
+          </button>
+          <button class="photo-card wide" type="button" data-category="event">
+            <img
+              src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85"
+              alt="Outdoor wedding reception with string lights"
+            />
+            <span><strong>Reception Light</strong> Event</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="stories" id="stories">
+        <article>
+          <p class="eyebrow">Approach</p>
+          <h2>Calm direction, natural scenes, honest edits.</h2>
+        </article>
+        <div class="story-grid">
+          <div>
+            <span class="story-number">01</span>
+            <h3>Portrait Sessions</h3>
+            <p>Editorial-feeling portraits for personal brands, artists, and families.</p>
+          </div>
+          <div>
+            <span class="story-number">02</span>
+            <h3>City Walks</h3>
+            <p>Street sets built around texture, timing, shadow, and movement.</p>
+          </div>
+          <div>
+            <span class="story-number">03</span>
+            <h3>Gatherings</h3>
+            <p>Events covered with quiet attention to faces, gestures, and atmosphere.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="eyebrow">Now Booking</p>
+          <h2>Have a shoot in mind?</h2>
+          <p>
+            Share the kind of session you want, the location, and the date. This
+            section can connect to email, Instagram, or a booking form.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+      </section>
+    </main>
+
+    <div class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+      <img src="" alt="" />
+      <p></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
