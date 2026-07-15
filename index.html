@@ -8,7 +8,12 @@
       name="description"
       content="A cinematic photography portfolio for portraits, streets, landscapes, and events."
     />
-    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -19,7 +24,6 @@
       </a>
       <nav>
         <a href="#work">Work</a>
-        <a href="#stories">Stories</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -31,7 +35,6 @@
           alt="street session in light"
         />
         <div class="hero-content">
-          <p class="eyebrow">Portraits / Streets / Events</p>
           <h1>Moments of life</h1>
           <p>
             A focused portfolio for showing selected work, telling the story
@@ -39,41 +42,14 @@
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#work">View Gallery</a>
-            <a class="button secondary" href="#contact">Book a Shoot</a>
           </div>
         </div>
         <a class="scroll-cue" href="#work" aria-label="Scroll to gallery">↓</a>
       </section>
 
-      <section class="intro" aria-label="Portfolio highlights">
-        <div>
-          <span class="stat">04</span>
-          <span class="label">selected frames</span>
-        </div>
-        <div>
-          <span class="stat">03</span>
-          <span class="label">shoot styles</span>
-        </div>
-        <div>
-          <span class="stat">02</span>
-          <span class="label">cities shot</span>
-        </div>
-        <p>
-          A rotating set of favorites, updated as new frames get edited.
-        </p>
-      </section>
-
       <section class="section" id="work">
         <div class="section-heading">
           <p class="eyebrow">Selected Work</p>
-          <h2>Frames that hold the feeling.</h2>
-        </div>
-
-        <div class="filters" aria-label="Filter gallery">
-          <button class="filter active" type="button" data-filter="all">All</button>
-          <button class="filter" type="button" data-filter="portrait">Portrait</button>
-          <button class="filter" type="button" data-filter="street">Street</button>
-          <button class="filter" type="button" data-filter="event">Event</button>
         </div>
 
         <div class="gallery">
@@ -82,60 +58,114 @@
               src="images/web/L1120883.jpg"
               alt="Two figures caught mid-step through a glass office doorway at night"
             />
-            <span><strong>Between Doors</strong> Street</span>
+            <span><strong>Between Doors</strong></span>
           </button>
           <button class="photo-card tall" type="button" data-category="portrait">
             <img
               src="images/web/136565010036.jpg"
               alt="Close portrait of a woman smiling in a blue beanie and yellow scarf"
             />
-            <span><strong>Warm Light</strong> Portrait</span>
+            <span><strong>Warm Light</strong></span>
           </button>
           <button class="photo-card wide tall" type="button" data-category="event">
             <img
               src="images/web/DSC_8891.jpg"
               alt="Children lighting firecrackers amid confetti during a Lunar New Year street celebration"
             />
-            <span><strong>Lunar New Year</strong> Event</span>
+            <span><strong>Lunar New Year</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="street">
+            <img
+              src="images/web/nyc-taxi-steam.jpg"
+              alt="A man crosses a New York avenue as steam rises between yellow cabs"
+            />
+            <span><strong>Steam on Fifth</strong></span>
+          </button>
+          <button class="photo-card tall" type="button" data-category="portrait">
+            <img
+              src="images/web/the-painter.jpg"
+              alt="An elderly woman smiles while painting at a table strung with colorful lanterns"
+            />
+            <span><strong>The Painter</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="event">
+            <img
+              src="images/web/the-ceremony.jpg"
+              alt="A bride and groom sit together during a traditional Indian wedding ceremony"
+            />
+            <span><strong>The Ceremony</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="street">
+            <img
+              src="images/web/table-for-two.jpg"
+              alt="A host gestures toward the door of a busy restaurant as a couple walks in"
+            />
+            <span><strong>Table for Two</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="street">
+            <img
+              src="images/web/after-hours.jpg"
+              alt="Two friends share a quiet smoke against a lit sign at night"
+            />
+            <span><strong>After Hours</strong></span>
+          </button>
+          <button class="photo-card tall" type="button" data-category="portrait">
+            <img
+              src="images/web/times-square-glow.jpg"
+              alt="A portrait lit by colorful neon light in Times Square"
+            />
+            <span><strong>Times Square Glow</strong></span>
+          </button>
+          <button class="photo-card wide" type="button" data-category="street">
+            <img
+              src="images/web/starry-night.jpg"
+              alt="A museum visitor leans in to study Van Gogh's Starry Night"
+            />
+            <span><strong>Starry Night</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="portrait">
+            <img
+              src="images/web/fearless.jpg"
+              alt="Close-up of tattooed knuckles spelling fearless"
+            />
+            <span><strong>Fearless</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="portrait">
+            <img
+              src="images/web/nashville-nights.jpg"
+              alt="A portrait lit by neon bar signs on a Nashville street at night"
+            />
+            <span><strong>Nashville Nights</strong></span>
+          </button>
+          <button class="photo-card wide" type="button" data-category="street">
+            <img
+              src="images/web/fountain-mist.jpg"
+              alt="A father and two children stand in fountain mist on a city street"
+            />
+            <span><strong>Fountain Mist</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="street">
+            <img
+              src="images/web/long-shadows.jpg"
+              alt="Commuters cross paths on a sunlit New York City sidewalk"
+            />
+            <span><strong>Long Shadows</strong></span>
+          </button>
+          <button class="photo-card" type="button" data-category="street">
+            <img
+              src="images/web/snow-on-broadway.jpg"
+              alt="A traveler pulls a suitcase through falling snow in Times Square"
+            />
+            <span><strong>Snow on Broadway</strong></span>
           </button>
         </div>
       </section>
 
-      <section class="stories" id="stories">
-        <article>
-          <p class="eyebrow">Approach</p>
-          <h2>Calm direction, natural scenes, honest edits.</h2>
-        </article>
-        <div class="story-grid">
-          <div>
-            <span class="story-number">01</span>
-            <h3>Portrait Sessions</h3>
-            <p>Editorial-feeling portraits for personal brands, artists, and families.</p>
-          </div>
-          <div>
-            <span class="story-number">02</span>
-            <h3>City Walks</h3>
-            <p>Street sets built around texture, timing, shadow, and movement.</p>
-          </div>
-          <div>
-            <span class="story-number">03</span>
-            <h3>Gatherings</h3>
-            <p>Events covered with quiet attention to faces, gestures, and atmosphere.</p>
-          </div>
+      <section class="section contact" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
         </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div>
-          <p class="eyebrow">Now Booking</p>
-          <h2>Have a shoot in mind?</h2>
-          <p>
-            Share the kind of session you want, the location, and the date. This
-            section can connect to email, Instagram, or a booking form.
-          </p>
-        </div>
-        <a class="button primary" href="mailto:techmoinak@gmail.com">techmoinak@gmail.com</a>
-        <a class="button primary" href="tel:+13212021925">+1 (321) 202-1925</a>
+        <a class="contact-email" href="mailto:techmoinak@gmail.com">techmoinak@gmail.com</a>
       </section>
     </main>
 
